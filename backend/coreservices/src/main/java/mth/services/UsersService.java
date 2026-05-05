@@ -32,8 +32,8 @@ public class UsersService {
 			}
 			else
 			{
-				U.setRole(1);		//Setting default role to the new user
-				U.setStatus(1);		//Make the status of the user as active
+						//Setting default role to the new user
+					//Make the status of the user as active
 				
 				UR.save(U);			//Insert into the database table (users)
 				
